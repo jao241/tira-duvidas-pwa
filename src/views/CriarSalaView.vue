@@ -123,4 +123,24 @@ a {
   background-color: #0555e9c0;
   border-radius: 5px;
 }
+
+@media (max-width: 500px) {
+  .formularios {
+    margin-top: 100px;
+  }
+  .formularios form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .formularios form h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .formularios form button,
+  .formularios form input,
+  .formularios .btn-criar-sala {
+    font-size: 16px;
+  }
+}
 </style>

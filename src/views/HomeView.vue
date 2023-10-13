@@ -140,4 +140,36 @@ a {
 .button img {
   margin-right: 10px;
 }
+
+@media (max-width: 500px) {
+  .formularios {
+    margin-top: 50px;
+  }
+  .formularios form {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .formularios form h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .formularios form button,
+  .formularios form input,
+  .formularios .btn-criar-sala {
+    font-size: 16px;
+  }
+
+  .formularios div {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .formularios span {
+    width: 100px;
+  }
+}
 </style>

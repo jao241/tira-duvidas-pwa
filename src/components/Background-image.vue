@@ -22,4 +22,10 @@
   position: relative;
   left: 134px;
 }
+
+@media (max-width: 500px) {
+  .main .background-image {
+    display: none;
+  }
+}
 </style>

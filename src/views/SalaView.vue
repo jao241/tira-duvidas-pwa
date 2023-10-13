@@ -145,4 +145,16 @@ function removeQuestions(id: number) {
   font-size: 14px;
   color: #a5b0c1;
 }
+
+@media (max-width: 500px) {
+  .sala header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .sala header .logo {
+    display: none;
+  }
+}
 </style>

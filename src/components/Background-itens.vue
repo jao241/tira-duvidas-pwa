@@ -25,4 +25,17 @@
   top: -350px;
   right: -350px;
 }
+
+@media (max-width: 500px) {
+  .esfera-maior {
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: -100px;
+    right: -100px;
+  }
+  .esfera-menor {
+    display: none;
+  }
+}
 </style>
